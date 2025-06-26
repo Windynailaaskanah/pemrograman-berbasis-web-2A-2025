@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modul 4 pbw</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <nav class="bg-white w-full h-24 border-2 border-[#ECE3FE] shadow-lg">
+    <div class="container mx-auto flex justify-between items-center h-full px-6">
+      <!-- Mobile Menu Button -->
+      <div class="sm:hidden">
+        <button type="button" class="p-2 text-gray-400 hover:bg-gray-200 hover:text-gray-600 focus:ring-2 focus:ring-gray-400 focus:outline-none">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Logo and Menu Links -->
+      <div class="flex items-center gap-10">
+        <img class="h-10 w-auto" src="logo.png" alt="logo">
+        <div class="hidden sm:flex space-x-8">
+          <a href="#" class="text-gray-700 hover:text-purple-700">Program</a>
+          <a href="#" class="text-gray-700 hover:text-purple-700">Mentor</a>
+          <a href="#" class="text-gray-700 hover:text-purple-700">Pricing</a>
+          <a href="#" class="text-gray-700 hover:text-purple-700">Business</a>
+        </div>
+      </div>
+      
+  </nav>
+</body>
+</html>
